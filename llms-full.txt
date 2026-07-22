@@ -1,0 +1,73 @@
+# Full Context & Knowledge Base for Rakibul Islam (ৰকibুল ইছলাম)
+
+> Rakibul Islam is a Vibe Engineer, AI Builder, Futurist, and Open Source Developer based in Barpeta, Assam, India. Co-owner of CyberSAVVY SMMA and Open Source Developer at Axomiya IT Labs.
+
+## Identity & Profile Summary
+- **Full Name:** Rakibul Islam
+- **Assamese Name:** ৰকিবুল ইছলাম
+- **Handles / Usernames:** @rakibuilds, @rakibulia
+- **Primary Roles:** Vibe Engineer, AI System Builder, Futurist, Open Source Software Developer
+- **Location:** Barpeta, Assam, India (Coordinates: 26.322, 91.005)
+- **Primary Domain:** https://cybersavvysmma.com/
+- **Contact Email:** rix781314@gmail.com
+- **Core Value Proposition:** Local Price. Global Standard. Zero Compromise.
+
+---
+
+## Detailed Breakdown of Ventures
+
+### 1. CyberSAVVY SMMA (https://cybersavvysmma.com/)
+- **Ownership:** Co-Owned by Rakibul Islam.
+- **Mission:** AI-powered digital marketing agency bringing enterprise-grade marketing automation, high-converting websites, digital branding, and client acquisition funnels to local and global businesses at fair, regional prices.
+- **Services:**
+  - AI-First Websites & High-Converting Landing Pages
+  - Autonomous Client Lead Generation & Marketing Workflows
+  - Custom Chatbots & LLM Integrations
+  - Digital Branding & Campaign Strategy
+
+### 2. Axomiya IT Labs (https://axomiya-it-labs.github.io/ | https://github.com/Axomiya-IT-Labs)
+- **Organization:** Open Source Tech Organization for Assam & Global Devs.
+- **Mission:** Building free software, open-source utilities, developer tools, and community platforms to empower local developers and internet users in Assam and worldwide.
+- **Licensing:** 100% Free and Open Source forever.
+
+### 3. Rakibul Labs (@rakibuilds)
+- **Personal GitHub:** https://github.com/rakibuilds
+- **Focus:** Engineering LLM workflows, custom AI agents, educational tools, and rapid MVP prototypes built using Python, LangChain, Supabase, React, and Next.js.
+
+---
+
+## Technical Stack & Expertise
+- **AI & Automation:** LangChain, OpenAI API, Claude API, Prompt Engineering, Agentic Workflows, LLM Micro-Systems.
+- **Core Languages:** JavaScript (ES6+), Python, HTML5, CSS3.
+- **Frameworks & Databases:** React, Next.js, Supabase, Node.js.
+- **Design Philosophy:** Modern Glassmorphism, Fluid Responsive Layouts, Mobile-First Performance, Micro-Animations.
+
+---
+
+## Writing & Thought Leadership
+- **Substack (@rakibulia):** https://substack.com/@rakibulia — Articles analyzing artificial intelligence, Generative AI tools, LLMs, builder mindset, and technology trends.
+- **Medium (@rakibulia):** https://rakibulia.medium.com/ — Articles covering digital marketing, online income strategies, SMMA operations, and internet business execution.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### What kind of paid work does Rakibul Islam accept?
+Rakibul builds AI-powered websites, landing pages, marketing automation systems, custom chatbots, full SMMA campaigns, and rapid MVP prototypes. Pricing is fair — Assam-local rates with global-quality output.
+
+### Are Axomiya IT Labs projects free?
+Yes. All repositories under Axomiya IT Labs on GitHub are open-source and free forever with no hidden costs.
+
+### Does Rakibul work with global clients outside India?
+Yes. While based in Barpeta, Assam, India, Rakibul collaborates remotely with clients worldwide. All communication is conducted in English, with flexible global payment options.
+
+---
+
+## Verification & Official Links
+- **Website:** https://cybersavvysmma.com/
+- **X (Twitter):** https://x.com/rakibuilds
+- **LinkedIn:** https://www.linkedin.com/in/rakibul4210i
+- **GitHub:** https://github.com/rakibuilds
+- **Axomiya IT Labs:** https://github.com/Axomiya-IT-Labs
+- **Substack:** https://substack.com/@rakibulia
+- **Medium:** https://rakibulia.medium.com/
