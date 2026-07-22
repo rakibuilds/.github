@@ -167,33 +167,44 @@ function initContactForm() {
 function initScrollEffects() {
   const navbar = document.querySelector('.navbar');
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      navbar.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
-      navbar.style.background = 'rgba(7, 11, 25, 0.94)';
-    } else {
-      navbar.style.boxShadow = 'none';
-      navbar.style.background = 'rgba(7, 11, 25, 0.85)';
-    }
-  });
-
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-in');
-        observer.unobserve(entry.target);
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
+        navbar.style.background = 'rgba(7, 11, 25, 0.94)';
+      } else {
+        navbar.style.boxShadow = 'none';
+        navbar.style.background = 'rgba(7, 11, 25, 0.85)';
       }
-    });
-  }, observerOptions);
+    }, { passive: true });
+  }
 
-  document.querySelectorAll('.glass-panel, .service-card, .project-card').forEach(el => {
-    observer.observe(el);
-  });
+  const animatableElements = document.querySelectorAll(
+    '.glass-panel, .service-card, .project-card, .why-card, .faq-item, .blog-platform-card'
+  );
+
+  if ('IntersectionObserver' in window) {
+    const observerOptions = {
+      threshold: 0.08,
+      rootMargin: '0px 0px -40px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    animatableElements.forEach(el => {
+      el.classList.add('reveal-on-scroll');
+      observer.observe(el);
+    });
+  } else {
+    animatableElements.forEach(el => el.classList.add('animate-in'));
+  }
 }
 
 /**
