@@ -489,25 +489,21 @@ h1, h2, h3, h4 {
   bottom: 1rem;
   left: 1rem;
   right: 1rem;
-  padding: 0.85rem 1rem;
+  padding: 0.75rem 1rem;
   background: rgba(7, 11, 25, 0.92);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-}
-
-.badge-title {
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: #fff;
+  justify-content: center;
 }
 
 .badge-sub {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--accent-cyan);
+  font-weight: 600;
+  text-align: center;
 }
 
 /* Section Header */
@@ -1284,22 +1280,19 @@ textarea.form-control {
   }
 
   .mobile-profile-label {
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.25rem;
     background: rgba(7, 11, 25, 0.95);
     border-top: 1px solid rgba(255,255,255,0.08);
-  }
-
-  .mobile-profile-name {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .mobile-profile-role {
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     color: var(--accent-cyan);
     font-weight: 600;
-    margin-top: 0.2rem;
+    text-align: center;
   }
 }
 
@@ -1609,3 +1602,46 @@ img {
   }
 }
 
+/* ==========================================================================
+   LAZY IMAGE FADE-IN — smooth appearance on 3G/4G/slow connections
+   ========================================================================== */
+
+/* Images start invisible; JS or native lazy-load triggers fade */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+img[loading="lazy"].loaded,
+img[loading="lazy"]:not([data-src]) {
+  opacity: 1;
+}
+
+/* Fallback: ensure lazy images are always visible if JS fails */
+@media (prefers-reduced-motion: reduce) {
+  img[loading="lazy"] {
+    opacity: 1 !important;
+    transition: none !important;
+  }
+}
+
+/* ==========================================================================
+   PRINT OPTIMIZATIONS
+   ========================================================================== */
+@media print {
+  body::before,
+  .navbar,
+  .mobile-drawer,
+  .mobile-overlay,
+  .mobile-toggle {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+}

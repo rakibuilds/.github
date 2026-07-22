@@ -29,8 +29,8 @@
   <meta name="theme-color" content="#070b19" />
 
   <!-- Preload Critical Background & Hero Assets -->
-  <link rel="preload" href="assets/background.webp" as="image" type="image/webp" />
-  <link rel="preload" href="assets/rakibul.webp" as="image" type="image/webp" />
+  <link rel="preload" href="assets/background.webp" as="image" type="image/webp" fetchpriority="high" />
+  <link rel="preload" href="assets/rakibul.webp" as="image" type="image/webp" fetchpriority="high" />
 
   <!-- Favicon -->
   <link rel="icon" href="assets/rakibul.webp" type="image/webp" />
@@ -196,7 +196,7 @@
   <!-- Google Fonts Preconnect & Optimized Asynchronous Stylesheet -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap&font-display=swap" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" /></noscript>
 
   <!-- Main Stylesheet -->
@@ -362,12 +362,7 @@
                 <img src="assets/rakibul.webp" alt="Rakibul Islam portrait" width="360" height="380" fetchpriority="high" decoding="async" />
               </picture>
               <div class="profile-badge-overlay">
-                <div>
-                  <div class="badge-sub">
-                    <span class="lang-en" lang="en">📍🇮🇳 · Available for Remote Work &amp; Consulting</span>
-                    <span class="lang-as" lang="as">📍🇮🇳 · ৰিম'ট কাম আৰু পৰামৰ্শৰ বাবে উপলব্ধ</span>
-                  </div>
-                </div>
+                <div class="badge-sub">📍🇮🇳 · Available for Remote Work &amp; Consulting</div>
               </div>
             </div>
           </div>
@@ -376,21 +371,14 @@
     </section>
 
     <!-- Mobile-only profile image: shown between hero and What I Do on small screens -->
-    <div class="mobile-profile-reveal" aria-hidden="true">
+    <div class="mobile-profile-reveal">
       <div class="mobile-profile-inner">
         <picture>
           <source srcset="assets/rakibul.webp" type="image/webp">
-          <img src="assets/rakibul.webp" alt="Rakibul Islam portrait" width="280" height="300" loading="lazy" decoding="async" />
+          <img src="assets/rakibul.webp" alt="Rakibul Islam — Vibe Engineer and AI Builder from Assam, India" width="280" height="300" loading="lazy" decoding="async" />
         </picture>
         <div class="mobile-profile-label">
-          <div class="mobile-profile-name">
-            <span class="lang-en" lang="en">Rakibul Islam</span>
-            <span class="lang-as" lang="as">ৰকিবুল ইছলাম</span>
-          </div>
-          <div class="mobile-profile-role">
-            <span class="lang-en" lang="en">📍🇮🇳 · Available for Remote Work &amp; Consulting</span>
-            <span class="lang-as" lang="as">📍🇮🇳 · ৰিম'ট কাম আৰু পৰামৰ্শৰ বাবে উপলব্ধ</span>
-          </div>
+          <div class="mobile-profile-role">📍🇮🇳 · Available for Remote Work &amp; Consulting</div>
         </div>
       </div>
     </div>
@@ -480,7 +468,7 @@
             <div class="project-banner-box">
               <picture>
                 <source srcset="assets/cybersavvy.webp" type="image/webp">
-                <img src="assets/cybersavvy.webp" alt="CyberSAVVY SMMA Banner" width="600" height="300" loading="lazy" decoding="async" />
+                <img src="assets/cybersavvy.webp" alt="CyberSAVVY SMMA — AI Marketing Agency by Rakibul Islam" width="600" height="300" loading="lazy" decoding="async" />
               </picture>
               <span class="project-badge-top badge-live">Live Agency</span>
             </div>
@@ -516,7 +504,7 @@
             <div class="project-banner-box">
               <picture>
                 <source srcset="assets/axomiya.webp" type="image/webp">
-                <img src="assets/axomiya.webp" alt="Axomiya IT Labs Banner" width="600" height="300" loading="lazy" decoding="async" />
+                <img src="assets/axomiya.webp" alt="Axomiya IT Labs — Open Source Tech for Assam" width="600" height="300" loading="lazy" decoding="async" />
               </picture>
               <span class="project-badge-top badge-opensource">Open Source</span>
             </div>
@@ -565,7 +553,7 @@
             <div class="project-banner-box">
               <picture>
                 <source srcset="assets/rakibul_labs.webp" type="image/webp">
-                <img src="assets/rakibul_labs.webp" alt="Rakibul AI Systems Banner" width="600" height="300" loading="lazy" decoding="async" />
+                <img src="assets/rakibul_labs.webp" alt="Rakibul Labs — Autonomous AI Micro-Systems and LLM Tools" width="600" height="300" loading="lazy" decoding="async" />
               </picture>
               <span class="project-badge-top badge-live">AI Innovation</span>
             </div>
