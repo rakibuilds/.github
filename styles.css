@@ -387,6 +387,28 @@ h1, h2, h3, h4 {
   background-color: #34d399;
   border-radius: 50%;
   box-shadow: 0 0 10px #34d399;
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 6px #34d399; }
+  50% { box-shadow: 0 0 14px #34d399, 0 0 24px rgba(52, 211, 153, 0.5); }
+}
+
+/* Hero Badge — Available for Projects */
+.hero-badge-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 1.1rem;
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.4);
+  border-radius: var(--radius-full);
+  color: #34d399;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.01em;
 }
 
 .hero-title {
@@ -488,6 +510,16 @@ h1, h2, h3, h4 {
   color: var(--accent-cyan);
 }
 
+.badge-avail-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #34d399;
+  box-shadow: 0 0 8px rgba(52, 211, 153, 0.8);
+  flex-shrink: 0;
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
 /* Section Header */
 .section-header {
   text-align: center;
@@ -542,6 +574,35 @@ h1, h2, h3, h4 {
   justify-content: center;
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
+  position: relative;
+}
+
+/* CSS-based service icon shapes (no emoji) */
+.service-icon-agency::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-cyan), #0284c7);
+  box-shadow: 0 0 12px var(--accent-cyan-glow);
+}
+
+.service-icon-opensource::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 3px solid var(--accent-purple);
+  border-radius: 50%;
+  box-shadow: 0 0 12px var(--accent-purple-glow);
+}
+
+.service-icon-ai::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  background: var(--accent-gold);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.4);
 }
 
 .service-title {
@@ -1095,6 +1156,7 @@ textarea.form-control {
   transition: right var(--transition-normal);
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .mobile-drawer.open {
@@ -1139,10 +1201,116 @@ textarea.form-control {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 600;
-  display: block;
-  min-height: 44px;
   display: flex;
   align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: color var(--transition-fast);
+}
+
+.mobile-nav-links a:hover {
+  color: var(--accent-cyan);
+}
+
+/* Mobile Drawer Social Row */
+.drawer-social-row {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.drawer-social-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  font-weight: 700;
+  margin-bottom: 0.85rem;
+}
+
+.drawer-social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.drawer-social-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-glass);
+  color: var(--text-sub);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-height: 44px;
+  transition: all var(--transition-fast);
+}
+
+.drawer-social-btn:hover {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.35);
+  color: var(--accent-cyan);
+}
+
+.drawer-social-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* Mobile Profile Reveal (shown only on mobile, between hero and What I Do) */
+.mobile-profile-reveal {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-profile-reveal {
+    display: block;
+    padding: 0 1.25rem 2.5rem 1.25rem;
+  }
+
+  .mobile-profile-inner {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+  }
+
+  .mobile-profile-inner picture,
+  .mobile-profile-inner img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mobile-profile-label {
+    padding: 1rem 1.25rem;
+    background: rgba(7, 11, 25, 0.95);
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .mobile-profile-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .mobile-profile-role {
+    font-size: 0.8rem;
+    color: var(--accent-cyan);
+    font-weight: 600;
+    margin-top: 0.2rem;
+  }
 }
 
 /* Prefer Direct Bar */
@@ -1338,13 +1506,16 @@ textarea.form-control {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+  /* On tablet: profile card comes first, then text */
   .profile-card-wrapper { order: -1; }
   .why-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 }
 
 @media (max-width: 768px) {
+  /* Mobile navbar: only hamburger — socials are inside the drawer */
   .nav-links, .nav-actions .btn-primary { display: none; }
   .nav-actions .social-icon-btn { display: none; }
+  .nav-actions .lang-switch-box { display: none; }
   .mobile-toggle { display: flex; align-items: center; justify-content: center; }
 
   .hero-section { padding: 2.5rem 0 2rem 0; }
@@ -1353,7 +1524,8 @@ textarea.form-control {
   .hero-actions { flex-direction: column; }
   .hero-actions .btn-primary, .hero-actions .btn-secondary { width: 100%; justify-content: center; }
 
-  .profile-img-box { height: 300px; }
+  /* Hide desktop profile card on mobile (shown separately via .mobile-profile-reveal) */
+  .profile-card-wrapper { display: none; }
 
   .services-section, .projects-section, .about-section,
   .contact-section, .why-section, .faq-section, .blog-section {
