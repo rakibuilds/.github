@@ -16,7 +16,25 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollEffects();
   initFaqAccordion();
   updateFooterYear();
+  initLazyImageFade();
 });
+
+/**
+ * Lazy Image Fade-In for slow network connections (3G/4G)
+ * Adds 'loaded' class to each lazy image when it finishes loading,
+ * triggering a smooth CSS opacity transition.
+ */
+function initLazyImageFade() {
+  const lazyImgs = document.querySelectorAll('img[loading="lazy"]');
+  lazyImgs.forEach(img => {
+    if (img.complete && img.naturalWidth > 0) {
+      img.classList.add('loaded');
+    } else {
+      img.addEventListener('load', () => img.classList.add('loaded'), { once: true });
+      img.addEventListener('error', () => img.classList.add('loaded'), { once: true });
+    }
+  });
+}
 
 /**
  * Strict Single-Language Toggle System (EN <-> AS)
