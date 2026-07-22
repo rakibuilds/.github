@@ -6,7 +6,7 @@
    - Touch-Friendly UI & Ultra Smooth 60fps/120fps Scrolling
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+/* Google Fonts loaded asynchronously in index.html for maximum performance on slow networks */
 
 :root {
   /* Premium Dark Palette */
@@ -1552,3 +1552,60 @@ textarea.form-control {
   .prefer-direct-links { flex-direction: column; }
   .prefer-link { flex: unset; width: 100%; }
 }
+
+/* ==========================================================================
+   PERFORMANCE & 3G / SLOW NETWORK LAZY-LOADING OPTIMIZATIONS
+   ========================================================================== */
+
+/* Modern Content Visibility for off-screen sections (saves GPU & CPU memory) */
+.services-section,
+.projects-section,
+.about-section,
+.why-section,
+.faq-section,
+.blog-section,
+.contact-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 600px;
+}
+
+/* Image Optimization & Smooth Fade-in */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Smooth Lazy Scroll Reveal System */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fallback for devices/browsers preferring reduced motion or slow JS execution */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal-on-scroll,
+  .glass-panel,
+  .service-card,
+  .project-card,
+  .why-card,
+  .faq-item,
+  .blog-platform-card {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
