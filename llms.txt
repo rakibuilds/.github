@@ -1,0 +1,55 @@
+# Rakibul Islam — Vibe Engineer, AI Builder & Futurist
+
+> Rakibul Islam (ৰকিবুল ইছলাম) is a Vibe Engineer, AI System Builder, and Futurist from Barpeta, Assam, India. Co-owner of CyberSAVVY SMMA (AI marketing agency) and Open Source Developer at Axomiya IT Labs.
+
+## Executive Overview
+- **Name:** Rakibul Islam (ৰকিবুল ইছলাম / rakibuilds)
+- **Role:** Vibe Engineer · AI Builder · Futurist · Open Source Developer
+- **Location:** Barpeta, Assam, India
+- **Primary Website:** https://cybersavvysmma.com/
+- **Core Motto:** "Local Price. Global Standard. Zero Compromise."
+- **Languages:** English (en), Assamese (as)
+
+## Primary Ventures & Organizations
+
+### 1. CyberSAVVY SMMA
+- **URL:** https://cybersavvysmma.com/
+- **Role:** Co-Owner & AI Growth Lead
+- **Description:** Local & global AI-powered marketing agency. Delivering autonomous lead generation workflows, high-converting digital branding, client acquisition systems, and AI-first websites for local businesses at affordable regional pricing.
+
+### 2. Axomiya IT Labs
+- **URL:** https://axomiya-it-labs.github.io/
+- **GitHub:** https://github.com/Axomiya-IT-Labs
+- **Role:** Open Source Developer & Contributor
+- **Description:** Community open-source technology organization building free software, digital tools, templates, and internet utilities for Assam and developers worldwide. Everything is 100% free and open source forever.
+
+### 3. Rakibul Labs (Personal AI Experiments)
+- **GitHub:** https://github.com/rakibuilds
+- **Role:** Creator & Vibe Engineer
+- **Description:** Custom LLM workflows, agentic automation scripts, prompt engineering tools, and rapid MVP prototypes built with Vibe Stack, LangChain, Supabase, and React.
+
+## Technical Skills & Capabilities
+- **Generative AI & LLMs:** LangChain, OpenAI API, Claude API, Prompt Engineering, Agentic Workflows, LLM Micro-Systems.
+- **Web Development:** JavaScript (ES6+), Python, React, Next.js, HTML5, CSS Glassmorphism, Supabase (Vibe Backend).
+- **Services Offered:** AI-powered websites, landing pages, marketing automation systems, custom chatbots, full SMMA campaigns, and rapid MVP prototypes.
+
+## Writing & Thoughts
+- **Substack:** https://substack.com/@rakibulia — Deep dives into AI, LLMs, GenAI tools, builder mindset, and emerging tech.
+- **Medium:** https://rakibulia.medium.com/ — Practical insights on digital marketing, online income, SMMA, and internet business strategy.
+
+## Key FAQ & Policies
+- **Open Source:** All tools under Axomiya IT Labs are free and open source under permissive licenses.
+- **Client Collaborations:** Available for remote client projects globally. Local pricing for Assam/India, global quality standard.
+- **Contact:** Email rix781314@gmail.com, DM on X (@rakibuilds), or LinkedIn.
+
+## Links & Socials
+- [Main Portfolio](https://cybersavvysmma.com/)
+- [CyberSAVVY SMMA](https://cybersavvysmma.com/)
+- [Axomiya IT Labs Website](https://axomiya-it-labs.github.io/)
+- [Axomiya IT Labs GitHub](https://github.com/Axomiya-IT-Labs)
+- [Personal GitHub](https://github.com/rakibuilds)
+- [X (Twitter)](https://x.com/rakibuilds)
+- [LinkedIn](https://www.linkedin.com/in/rakibul4210i)
+- [Substack](https://substack.com/@rakibulia)
+- [Medium](https://rakibulia.medium.com/)
+- [Full LLM Context File](https://cybersavvysmma.com/llms-full.txt)

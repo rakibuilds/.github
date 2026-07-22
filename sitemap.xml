@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage / Root -->
+  <url>
+    <loc>https://cybersavvysmma.com/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cybersavvysmma.com/"/>
+    <xhtml:link rel="alternate" hreflang="as" href="https://cybersavvysmma.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cybersavvysmma.com/"/>
+  </url>
+
+  <!-- Section: Work & Featured Ventures -->
+  <url>
+    <loc>https://cybersavvysmma.com/#ventures</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Section: Capabilities / Services -->
+  <url>
+    <loc>https://cybersavvysmma.com/#services</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Section: About / Who I Am -->
+  <url>
+    <loc>https://cybersavvysmma.com/#about</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Section: Why Work With Me -->
+  <url>
+    <loc>https://cybersavvysmma.com/#why</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Section: Frequently Asked Questions -->
+  <url>
+    <loc>https://cybersavvysmma.com/#faq</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Section: Writing / Blogs -->
+  <url>
+    <loc>https://cybersavvysmma.com/#writing</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Section: Contact -->
+  <url>
+    <loc>https://cybersavvysmma.com/#contact</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- LLM & AI Context Files -->
+  <url>
+    <loc>https://cybersavvysmma.com/llms.txt</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://cybersavvysmma.com/llms-full.txt</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
