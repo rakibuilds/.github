@@ -6,7 +6,7 @@
 
 Building AI-First Systems & Scaling Digital Ventures.
 
-[CyberSAVVY SMMA](https://cybersavvysmma.com/) · [Axomiya IT Labs](https://axomiya-it-labs.github.io/) · [X @rakibuilds](https://x.com/rakibuilds)
+[CyberSAVVY SMMA](https://cybersavvysmma.com/) · [Axomiya IT Labs](https://axomiya-it-labs.github.io/) · [Rakibul on X](https://x.com/rakibuilds)
 
 ---
 
