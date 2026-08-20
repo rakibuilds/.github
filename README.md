@@ -51,10 +51,6 @@ Interactive 3D browser-based educational game for children to explore science, s
 Interactive, visual guidebook breaking down Artificial Intelligence concepts, ethics, real-world applications, and future careers.
 - **Live Demo:** [aiguidebook.netlify.app](https://aiguidebook.netlify.app/)
 
-### 🛠 ToolsTok.ai — AI Tools Directory
-Discovery platform for searching, filtering, and submitting production-grade AI tools for creators and developers.
-- **Live Demo:** [toolstok.netlify.app](https://toolstok.netlify.app/)
-
 ---
 
 ## Connect & Collaborate
