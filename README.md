@@ -42,15 +42,6 @@ Building free, open-source community utilities, regional developer platforms, an
 - **Website:** [axomiya-it-labs.github.io](https://axomiya-it-labs.github.io/)
 - **GitHub Org:** [github.com/Axomiya-IT-Labs](https://github.com/Axomiya-IT-Labs)
 
-### 🎮 Curious Kids — 3D Knowledge Game
-Interactive 3D browser-based educational game for children to explore science, space, and technology.
-- **Live Demo:** [curious-kids-game.netlify.app](https://curious-kids-game.netlify.app/)
-- **Stack:** JavaScript, Three.js, Tailwind CSS
-
-### 🤖 AI Guidebook — AI Fundamentals Visualized
-Interactive, visual guidebook breaking down Artificial Intelligence concepts, ethics, real-world applications, and future careers.
-- **Live Demo:** [aiguidebook.netlify.app](https://aiguidebook.netlify.app/)
-
 ---
 
 ## Connect & Collaborate
