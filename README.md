@@ -1,12 +1,12 @@
 <div align="center">
 
-### Vibe Engineer · Builder · Futurist
+Hey there 👋
 
-Building AI-First Systems & Scaling Digital Ventures.
+I'm a vibe engineer · builder · futurist.
 
-[CyberSAVVY SMMA](https://cybersavvysmma.com/) · [Axomiya IT Labs](https://axomiya-it-labs.github.io/) · [Rakibul on X](https://x.com/rakibuilds)
+Building AI-first systems & scaling digital ventures.
 
----
+[CyberSAVVY SMMA](https://cybersavvysmma.com/) · [Axomiya IT Labs](https://axomiya-it-labs.github.io/) · [X](https://x.com/rakibuilds)
 
 </div>
 
