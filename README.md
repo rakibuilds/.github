@@ -12,7 +12,7 @@ Building AI-first systems & scaling digital ventures.
 
 ## Overview
 
-AI builder and developer based in Assam, India. Co-owner of **CyberSAVVY SMMA** (AI marketing agency) and open-source developer at **Axomiya IT Labs**. Focused on practical GenAI workflows, rapid prototyping, and shipping scalable web applications.
+An AI developer based in Assam, India. Co-owner of **CyberSAVVY SMMA** (AI marketing agency) and open-source developer at **Axomiya IT Labs**. Focused on practical GenAI workflows, rapid prototyping, and shipping scalable web applications.
 
 ---
 
