@@ -5,8 +5,6 @@
 **Vibe engineer · Builder · Futurist**
 AI developer from Assam, India, building AI-first systems and scaling digital ventures.
 
-<img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=550&lines=Building+AI-First+Systems.;Local+Price.+Global+Standard.;No+Noise.+Only+Output." alt="Typing SVG" />
-
 </div>
 
 ---
