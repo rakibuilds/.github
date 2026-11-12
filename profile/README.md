@@ -17,7 +17,7 @@ AI developer from Assam, India, building AI-first systems and scaling digital ve
 AI marketing agency for local businesses: autonomous lead generation, branding, and custom client-acquisition systems.
 
 **[Axomiya IT Labs](https://axomiya-it-labs.github.io/)** (Open-source developer)
-Free, open-source tools and developer platforms for Assam. [GitHub Org](https://github.com/Axomiya-IT-Labs)
+Free, open-source tools and developer platforms for Assam. [GitHub](https://github.com/Axomiya-IT-Labs)
 
 ---
 
