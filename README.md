@@ -1,7 +1,5 @@
 <div align="center">
 
-# Rakibul Islam
-
 ### Vibe Engineer · Builder · Futurist
 
 Building AI-First Systems & Scaling Digital Ventures.
