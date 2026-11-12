@@ -3,7 +3,7 @@
 # Hey there 👋
 
 **Vibe engineer · Builder · Futurist**
-AI developer from Assam, India, building AI-first systems and scaling digital ventures.
+- AI developer from Assam, India, building AI-first systems and scaling digital ventures.
 
 </div>
 
