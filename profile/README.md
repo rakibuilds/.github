@@ -29,7 +29,7 @@ flowchart LR
 
 ---
 
-## My Stack
+## Tech Stack
 
 <p align="left">
   <b>Languages</b><br/>
