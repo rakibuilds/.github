@@ -1,11 +1,8 @@
 Hey there,
 I'm an AI developer based in India.
 
-**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** (Founder)
-- AI marketing agency for local businesses: autonomous lead generation, branding, and custom client-acquisition systems.
-
-**[Rakibul AI Labs](https://rakibuilds.github.io/)** (Owner)
-- My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
+**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** - AI marketing agency for local businesses.
+**[Rakibul AI Labs](https://rakibuilds.github.io/)** -   Local LLMs and experiments with anything that can be built using AI.
 
 ## How I Work
 
