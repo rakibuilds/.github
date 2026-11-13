@@ -1,5 +1,5 @@
 Hey there,
--I'm an AI developer based in India building AI-first systems and scaling digital ventures.
+- I'm an AI developer based in India building AI-first systems and scaling digital ventures.
 
 ---
 
