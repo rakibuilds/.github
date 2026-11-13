@@ -1,14 +1,13 @@
 Hey there,
-I'm an AI developer based in India building AI-first systems and scaling digital ventures.
-
+I'm an AI developer based in India.
 ---
 
-## What I'm Building
+## What I'm Working
 
-**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** (Co-owner)
+**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** (Founder)
 - AI marketing agency for local businesses: autonomous lead generation, branding, and custom client-acquisition systems.
 
-**[Rakibul AI Labs](https://rakibuilds.github.io/)** (Founder)
+**[Rakibul AI Labs](https://rakibuilds.github.io/)** (Owner)
 - My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
 
 ---
@@ -39,7 +38,7 @@ flowchart LR
 
 ## Tech Stack
 
-<p align="center">
+<p align="left">
   <b>Languages</b><br/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -49,7 +48,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" />
 </p>
 
-<p align="center">
+<p align="left">
   <b>Frontend and Mobile</b><br/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -61,7 +60,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
 </p>
 
-<p align="center">
+<p align="left">
   <b>Backend and Databases</b><br/>
   <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
@@ -73,7 +72,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
 </p>
 
-<p align="center">
+<p align="left">
   <b>Cloud and DevOps</b><br/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
@@ -85,14 +84,14 @@ flowchart LR
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
-<p align="center">
+<p align="left">
   <b>Tools</b><br/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
-<p align="center">
+<p align="left">
   <b>Generative AI</b><br/>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
