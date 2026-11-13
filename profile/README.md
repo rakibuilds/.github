@@ -1,8 +1,6 @@
 Hey there,
 I'm an AI developer based in India.
 
-## What I'm Working
-
 **[CyberSAVVY SMMA](https://cybersavvysmma.com/)** (Founder)
 - AI marketing agency for local businesses: autonomous lead generation, branding, and custom client-acquisition systems.
 
@@ -33,7 +31,7 @@ flowchart LR
 
 ---
 
-## Tech Stack
+## My Stack
 
 <p align="left">
   <b>Languages</b><br/>
