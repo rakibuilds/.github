@@ -1,6 +1,5 @@
 Hey there,
 I'm an AI developer based in India.
----
 
 ## What I'm Working
 
@@ -9,8 +8,6 @@ I'm an AI developer based in India.
 
 **[Rakibul AI Labs](https://rakibuilds.github.io/)** (Owner)
 - My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
-
----
 
 ## How I Work
 
