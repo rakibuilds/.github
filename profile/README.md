@@ -8,8 +8,8 @@ I'm an AI developer based in India building AI-first systems and scaling digital
 **[CyberSAVVY SMMA](https://cybersavvysmma.com/)** (Co-owner)
 AI marketing agency for local businesses: autonomous lead generation, branding, and custom client-acquisition systems.
 
-**PrepBuddy**
-Exam preparation platform for students in Assam.
+**Rakibul AI Labs** (Founder)
+My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
 
 ---
 
