@@ -1,9 +1,9 @@
-Hey there,<br>
+Hey there,
 I'm an AI developer based in India.
 
 **[CyberSAVVY SMMA](https://cybersavvysmma.com/)** - AI marketing agency for local businesses.
 <br>
-**[Rakibul AI Labs](https://rakibuilds.github.io/)** - Local LLMs and experiments with anything that can be built using AI.
+**[Rakibul AI Labs](https://rakibuilds.github.io/)** -   Local LLMs and experiments with anything that can be built using AI.
 
 ## How I Work
 
@@ -84,7 +84,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" />
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logoColor=white" alt="DeepSeek" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
 </p>
 
@@ -94,10 +94,9 @@ flowchart LR
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-@rakibuilds-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rakibuilds)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rakibul_Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakibul4210i)
-[![GitHub](https://img.shields.io/badge/GitHub-@rakibuilds-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rakibuilds)
-[![Substack](https://img.shields.io/badge/Substack-@rakibulia-FF6B35?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@rakibulia)
-[![Medium](https://img.shields.io/badge/Medium-@rakibulia-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rakibulia.medium.com/)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rakibuilds)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakibul4210i)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@rakibulia)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rakibulia.medium.com/)
 
 </div>
