@@ -94,10 +94,10 @@ flowchart LR
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-@rakibuilds-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rakibuilds)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rakibul_Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakibul4210i)
-[![GitHub](https://img.shields.io/badge/GitHub-@rakibuilds-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rakibuilds)
-[![Substack](https://img.shields.io/badge/Substack-@rakibulia-FF6B35?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@rakibulia)
-[![Medium](https://img.shields.io/badge/Medium-@rakibulia-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rakibulia.medium.com/)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rakibuilds)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakibul4210i)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rakibuilds)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@rakibulia)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://rakibulia.medium.com/)
 
 </div>
