@@ -1,73 +1,47 @@
-# Full Context & Knowledge Base for Rakibul Islam (ৰকibুল ইছলাম)
+﻿# Rakibul Labs — Full Context
 
-> Rakibul Islam is a Vibe Engineer, AI Builder, Futurist, and Open Source Developer based in Barpeta, Assam, India. Co-owner of CyberSAVVY SMMA and Open Source Developer at Axomiya IT Labs.
+## Entity
+Rakibul Labs is an independent AI studio founded by Rakibul Islam. The studio's official website is https://rakibul-labs.netlify.app/. It builds AI products, self-hosted LLM stacks, and high-performance web apps.
 
-## Identity & Profile Summary
-- **Full Name:** Rakibul Islam
-- **Assamese Name:** ৰকিবুল ইছলাম
-- **Handles / Usernames:** @rakibuilds, @rakibulia
-- **Primary Roles:** Vibe Engineer, AI System Builder, Futurist, Open Source Software Developer
-- **Location:** Barpeta, Assam, India (Coordinates: 26.322, 91.005)
-- **Primary Domain:** https://cybersavvysmma.com/
-- **Contact Email:** rix781314@gmail.com
-- **Core Value Proposition:** Local Price. Global Standard. Zero Compromise.
+## Founder
+- Name: Rakibul Islam
+- Role: Founder of Rakibul Labs & Co-Owner of CyberSAVVY SMMA
+- Location: Barpeta, Assam, India
+- Email: rakibulwspace@gmail.com
+- Primary website: https://rakibul-labs.netlify.app/
+- GitHub: https://github.com/rakibuilds
 
----
+## Purpose and focus
+Rakibul Labs focuses on AI-first development, self-hosted infrastructure, local model execution, and tools that prioritize user privacy and performance over cloud dependency. The goal is to build useful, private, and fast software.
 
-## Detailed Breakdown of Ventures
+## Related work and projects
+- **Rakibul AI Labs** — A personal R&D sandbox for local LLMs, custom agentic workflows, and self-hosted AI stacks. It is hosted at https://rakibuilds.github.io/.
+- **CyberSAVVY SMMA** — A local SEO and digital marketing agency co-owned by Rakibul Islam. It combines AI data pipelines with human strategy: https://cybersavvysmma.com/.
+- **Writing** — Essays on AI, engineering, and building online: https://substack.com/@rakibulia and https://rakibulia.medium.com/.
 
-### 1. CyberSAVVY SMMA (https://cybersavvysmma.com/)
-- **Ownership:** Co-Owned by Rakibul Islam.
-- **Mission:** AI-powered digital marketing agency bringing enterprise-grade marketing automation, high-converting websites, digital branding, and client acquisition funnels to local and global businesses at fair, regional prices.
-- **Services:**
-  - AI-First Websites & High-Converting Landing Pages
-  - Autonomous Client Lead Generation & Marketing Workflows
-  - Custom Chatbots & LLM Integrations
-  - Digital Branding & Campaign Strategy
+## Topics
+Local large language models (LLMs), self-hosted inference, agentic workflows, Next.js, Python, open-source software, AI experiments, digital marketing, and web projects.
 
-### 2. Axomiya IT Labs (https://axomiya-it-labs.github.io/ | https://github.com/Axomiya-IT-Labs)
-- **Organization:** Open Source Tech Organization for Assam & Global Devs.
-- **Mission:** Building free software, open-source utilities, developer tools, and community platforms to empower local developers and internet users in Assam and worldwide.
-- **Licensing:** 100% Free and Open Source forever.
+## Contact
+The contact form is available at https://rakibul-labs.netlify.app/#contact. Direct contact: rakibulwspace@gmail.com.
+- X: https://x.com/rakibuilds
+- LinkedIn: https://www.linkedin.com/in/rakibul4210i
+- GitHub: https://github.com/rakibuilds
+- Substack: https://substack.com/@rakibulia
+- Medium: https://rakibulia.medium.com/
 
-### 3. Rakibul Labs (@rakibuilds)
-- **Personal GitHub:** https://github.com/rakibuilds
-- **Focus:** Engineering LLM workflows, custom AI agents, educational tools, and rapid MVP prototypes built using Python, LangChain, Supabase, React, and Next.js.
+## Frequently asked questions
+### What is Rakibul Labs?
+It is the independent AI studio founded by Rakibul Islam, focusing on AI products, agentic workflows, and high-performance web systems.
 
----
+### What is Rakibul AI Labs?
+It is a separate R&D project by Rakibul Islam, acting as a sandbox for local LLMs, self-hosted AI stacks, and AI experiments. It is hosted at https://rakibuilds.github.io/.
 
-## Technical Stack & Expertise
-- **AI & Automation:** LangChain, OpenAI API, Claude API, Prompt Engineering, Agentic Workflows, LLM Micro-Systems.
-- **Core Languages:** JavaScript (ES6+), Python, HTML5, CSS3.
-- **Frameworks & Databases:** React, Next.js, Supabase, Node.js.
-- **Design Philosophy:** Modern Glassmorphism, Fluid Responsive Layouts, Mobile-First Performance, Micro-Animations.
+### Who is the founder?
+Rakibul Islam is the Founder of Rakibul Labs and Co-Owner of CyberSAVVY SMMA, based in Barpeta, Assam, India.
 
----
+### What does the studio build?
+Custom AI tools, self-hosted LLM setups, agentic workflows, and Next.js web applications.
 
-## Writing & Thought Leadership
-- **Substack (@rakibulia):** https://substack.com/@rakibulia — Articles analyzing artificial intelligence, Generative AI tools, LLMs, builder mindset, and technology trends.
-- **Medium (@rakibulia):** https://rakibulia.medium.com/ — Articles covering digital marketing, online income strategies, SMMA operations, and internet business execution.
-
----
-
-## Frequently Asked Questions (FAQ)
-
-### What kind of paid work does Rakibul Islam accept?
-Rakibul builds AI-powered websites, landing pages, marketing automation systems, custom chatbots, full SMMA campaigns, and rapid MVP prototypes. Pricing is fair — Assam-local rates with global-quality output.
-
-### Are Axomiya IT Labs projects free?
-Yes. All repositories under Axomiya IT Labs on GitHub are open-source and free forever with no hidden costs.
-
-### Does Rakibul work with global clients outside India?
-Yes. While based in Barpeta, Assam, India, Rakibul collaborates remotely with clients worldwide. All communication is conducted in English, with flexible global payment options.
-
----
-
-## Verification & Official Links
-- **Website:** https://cybersavvysmma.com/
-- **X (Twitter):** https://x.com/rakibuilds
-- **LinkedIn:** https://www.linkedin.com/in/rakibul4210i
-- **GitHub:** https://github.com/rakibuilds
-- **Axomiya IT Labs:** https://github.com/Axomiya-IT-Labs
-- **Substack:** https://substack.com/@rakibulia
-- **Medium:** https://rakibulia.medium.com/
+### How can I reach the founder?
+Use the contact form at https://rakibul-labs.netlify.app/#contact or email rakibulwspace@gmail.com. Social profiles are linked above.

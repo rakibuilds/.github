@@ -1,9 +1,43 @@
+<<<<<<< HEAD
 Hey there,
 I'm an AI developer based in India.
 
 **[CyberSAVVY SMMA](https://cybersavvysmma.com/)** - AI marketing agency for local businesses.
 <br>
 **[Rakibul AI Labs](https://rakibuilds.github.io/)** -   Local LLMs and experiments with anything that can be built using AI.
+=======
+﻿# Rakibul Islam
+
+I’m an AI developer and the Founder of Rakibul AI Labs, based in Barpeta, Assam, India. I build AI-first systems and explore practical uses for local language models and self-hosted AI.
+
+## What I’m building
+
+**[Rakibul AI Labs](https://rakibuilds.github.io/)** — Founder
+
+My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
+
+**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** — Co-owner
+
+An AI-powered marketing agency for local businesses, focused on lead generation, branding, and client acquisition.
+
+---
+# Rakibul Islam
+
+I’m an AI developer and the Founder of Rakibul AI Labs, based in Barpeta, Assam, India. I build AI-first systems and explore practical uses for local language models and self-hosted AI.
+
+## What I’m building
+
+**[Rakibul AI Labs](https://rakibuilds.github.io/)** — Founder
+
+My own AI lab: local LLMs, self-hosted AI stacks, and experiments with anything that can be built using AI.
+
+**[CyberSAVVY SMMA](https://cybersavvysmma.com/)** — Co-owner
+
+An AI-powered marketing agency for local businesses, focused on lead generation, branding, and client acquisition.
+
+---
+---
+>>>>>>> 10add4e (Build 3D AI portfolio for Rakibul Labs)
 
 ## How I Work
 
