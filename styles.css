@@ -205,7 +205,7 @@ html.lenis, html.lenis body { height: auto; }
   .process-list { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* === FIXED MOBILE HERO GAP === */
+/* === FIXED MOBILE HERO GAP + DOMINANT 3D AVATAR === */
 @media (max-width: 768px) {
   .hero-section {
     min-height: auto; /* Stops forcing full-screen height */
@@ -227,9 +227,12 @@ html.lenis, html.lenis body { height: auto; }
   .hero-actions, .hero-meta, .eyebrow { justify-content: center; }
   .hero-meta span + span { border-left: none; }
   
-  /* Dims the avatar so text stays readable */
+  /* ✅ 3D avatar now DOMINATES the mobile hero background */
   .universe-canvas { 
-    opacity: 0.25 !important; 
+    opacity: 1 !important;          /* was 0.25 — full visibility */
+    z-index: 0;                     /* sits behind content */
+    transform: scale(1.35);         /* enlarges avatar to fill screen */
+    transform-origin: center center;
   }
 }
 

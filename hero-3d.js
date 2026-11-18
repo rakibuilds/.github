@@ -42,7 +42,10 @@ export async function initHero3D() {
       const renderer = new THREE.WebGLRenderer({
         canvas, alpha: true, antialias: !lowPower, powerPreference: 'high-performance'
       });
-      renderer.setPixelRatio(Math.min(devicePixelRatio || 1, lowPower ? 1.25 : 1.75));
+
+      // ✅ Capped at 1.5 on mobile so CSS scale(1.35) stays sharp without overworking the GPU
+      const maxPixelRatio = lowPower ? 1.5 : 1.75;
+      renderer.setPixelRatio(Math.min(devicePixelRatio || 1, maxPixelRatio));
       renderer.setClearColor(0x000000, 0);
       renderer.toneMapping = THREE.ACESFilmicToneMapping;
       renderer.toneMappingExposure = 1.2;

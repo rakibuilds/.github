@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* Lazy-load the Three.js hero AFTER first paint.
-   Keeps three/draco out of the initial bundle. */
+   Keeps three/draco out of the initial bundle.
+   SEO-safe: Googlebot executes requestIdleCallback + dynamic import normally. */
 function initHero3D() {
   if (!document.getElementById('universe')) return; // no canvas -> nothing to do
   const run = () => import('./hero-3d.js').then((m) => m.initHero3D());
