@@ -2,7 +2,7 @@
 
 A fast, interactive 3D portfolio template built with vanilla JavaScript. It features a custom chrome-style 3D avatar, smooth scrolling, scroll-driven animations, and a dark aesthetic designed for developers, AI engineers, and creators.
 
-**Live demo:** [rakibul-labs.netlify.app](https://rakibul-labs.netlify.app/)
+**Live demo:** [rakibul-labs.vercel.app](https://rakibul-labs.vercel.app/)
 
 ---
 
@@ -161,4 +161,4 @@ Released under the [MIT License](LICENSE).
 
 - 3D avatar generated with [Meshy.ai](https://www.meshy.ai/).
 - Fonts from [Google Fonts](https://fonts.google.com/): Space Grotesk and Inter.
-- Built by [Rakibul](https://rakibul-labs.netlify.app/).
+- Built by [Rakibul](https://rakibul-labs.vercel.app/).
