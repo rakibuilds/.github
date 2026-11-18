@@ -161,4 +161,4 @@ Released under the [MIT License](LICENSE).
 
 - 3D avatar generated with [Meshy.ai](https://www.meshy.ai/).
 - Fonts from [Google Fonts](https://fonts.google.com/): Space Grotesk and Inter.
-- Built by [Rakibul Islam](https://rakibul-labs.netlify.app/).
+- Built by [Rakibul](https://rakibul-labs.netlify.app/).
