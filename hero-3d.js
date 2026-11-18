@@ -1,37 +1,42 @@
-import * as THREE from 'three';
-import { Timer } from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Lenis from 'lenis';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const hero = document.querySelector('.hero-section') || document.body;
-const canvas = document.getElementById('universe');
+export async function initHero3D() {
+  // Dynamic imports -> Rolldown emits these as separate, deferred chunks
+  const THREE = await import('three');
+  const { Timer } = THREE;
+  const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js');
+  const { DRACOLoader } = await import('three/addons/loaders/DRACOLoader.js');
 
-// ---- Capability gates -------------------------------------------------
-const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const saveData = navigator.connection?.saveData === true;
-const webgl2 = (() => {
-  try { return !!document.createElement('canvas').getContext('webgl2'); }
-  catch { return false; }
-})();
-const lowPower = innerWidth < 900 || (navigator.hardwareConcurrency || 4) <= 4;
+  const hero = document.querySelector('.hero-section') || document.body;
+  const canvas = document.getElementById('universe');
 
-// Smooth scroll only for people who want motion
-if (!reduceMotion) {
-  const lenis = new Lenis({ anchors: true });
-  lenis.on('scroll', ScrollTrigger.update);
-  gsap.ticker.add((time) => lenis.raf(time * 1000));
-  gsap.ticker.lagSmoothing(0);
-}
+  // ---- Capability gates -------------------------------------------------
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const saveData = navigator.connection?.saveData === true;
+  const webgl2 = (() => {
+    try { return !!document.createElement('canvas').getContext('webgl2'); }
+    catch { return false; }
+  })();
+  const lowPower = innerWidth < 900 || (navigator.hardwareConcurrency || 4) <= 4;
 
-// No canvas / no WebGL2 / reduced motion / data saver -> CSS gradient fallback, zero downloads
-if (!canvas || !webgl2 || reduceMotion || saveData) {
-  canvas?.remove();
-} else {
+  // Smooth scroll only for people who want motion
+  if (!reduceMotion) {
+    const Lenis = (await import('lenis')).default;
+    const lenis = new Lenis({ anchors: true });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add((time) => lenis.raf(time * 1000));
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  // No canvas / no WebGL2 / reduced motion / data saver -> CSS gradient fallback, zero downloads
+  if (!canvas || !webgl2 || reduceMotion || saveData) {
+    canvas?.remove();
+    return;
+  }
+
   const loadScene = () => {
     try {
       const renderer = new THREE.WebGLRenderer({

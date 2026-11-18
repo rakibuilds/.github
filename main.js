@@ -6,7 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
   initFaq(); // Added back for the accordion
   initReveal();
   initFooterYear();
+  initHero3D();
 });
+
+/* Lazy-load the Three.js hero AFTER first paint.
+   Keeps three/draco out of the initial bundle. */
+function initHero3D() {
+  if (!document.getElementById('universe')) return; // no canvas -> nothing to do
+  const run = () => import('./hero-3d.js').then((m) => m.initHero3D());
+  'requestIdleCallback' in window
+    ? requestIdleCallback(run)
+    : setTimeout(run, 1);
+}
 
 function initNavigation() {
   const header = document.querySelector('.navbar');
