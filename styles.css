@@ -205,13 +205,32 @@ html.lenis, html.lenis body { height: auto; }
   .process-list { grid-template-columns: repeat(2, 1fr); }
 }
 
+/* === FIXED MOBILE HERO GAP === */
 @media (max-width: 768px) {
-  .hero-content { justify-items: center; text-align: center; min-height: 95vh; padding-bottom: 50px; }
-  .hero-copy { max-width: 100%; align-items: center; margin-bottom: 2rem; }
+  .hero-section {
+    min-height: auto; /* Stops forcing full-screen height */
+    padding-top: 100px; /* Clears the navbar */
+    padding-bottom: 0; 
+  }
+  .hero-content { 
+    justify-items: center; 
+    text-align: center; 
+    min-height: auto; /* REMOVES THE 95VH GAP */
+    padding-bottom: 0; 
+  }
+  .hero-copy { 
+    max-width: 100%; 
+    align-items: center; 
+    margin-bottom: 0; 
+  }
   .hero-subtitle { margin-inline: auto; }
   .hero-actions, .hero-meta, .eyebrow { justify-content: center; }
   .hero-meta span + span { border-left: none; }
-  .universe-canvas { opacity: .55 !important; }
+  
+  /* Dims the avatar so text stays readable */
+  .universe-canvas { 
+    opacity: 0.25 !important; 
+  }
 }
 
 @media (max-width: 680px) {
@@ -220,7 +239,7 @@ html.lenis, html.lenis body { height: auto; }
   .navbar { height: 70px; }
   .nav-links,.nav-cta { display: none; }
   .mobile-toggle { display: block; }
-  .hero-section { min-height: auto; padding: 112px 0 62px; }
+  .hero-section { padding: 100px 0 62px; }
   .hero-title { max-width: 560px; font-size: clamp(3.25rem,14vw,5.1rem); }
   .hero-subtitle { margin-top: 1.2rem; font-size: .98rem; }
   .hero-meta { margin-top: 1.8rem; }
