@@ -5,7 +5,7 @@
 ## Identity
 - Founder: Rakibul Islam
 - Organization: Rakibul Labs
-- Website: https://rakibul-labs.netlify.app/
+- Website: https://rakibul-labs.vercel.app/
 - Location: Barpeta, Assam, India
 - Contact: rakibulwspace@gmail.com
 - GitHub: https://github.com/rakibuilds
@@ -14,7 +14,7 @@
 Rakibul Labs focuses on building AI-first systems, running models locally, and architecting self-hosted infrastructure. We believe in privacy, speed, and complete independence from big cloud providers.
 
 ## Projects and Ventures
-- **Rakibul AI Labs** — The personal R&D sandbox for local LLMs and self-hosted AI: https://rakibuilds.github.io/ 
+- **Rakibul AI Labs** — The personal R&D sandbox for local LLMs and self-hosted AI: https://rakibuilds.github.io/
 - **CyberSAVVY SMMA** — A local SEO and digital marketing agency: https://cybersavvysmma.com/
 - **Writing** — Essays on AI and engineering: https://substack.com/@rakibulia and https://rakibulia.medium.com/
 
@@ -37,7 +37,10 @@ Rakibul Labs is the independent AI studio of Rakibul Islam. It focuses on AI pro
 Rakibul AI Labs is a separate project by Rakibul Islam. It is a personal R&D sandbox for local LLMs, self-hosted AI stacks, and experiments.
 
 ### What does Rakibul Labs build?
-We build custom AI tools, self-hosted LLM setups, and Next.js web apps.
+We build custom AI tools, self-hosted LLM setups, and Next.js web apps. Typical work includes agentic workflows, offline-first AI tools, and SEO-ready Next.js sites.
 
 ### How can I contact Rakibul Islam?
-Email rakibulwspace@gmail.com, use the contact form at https://rakibul-labs.netlify.app/, or connect through X, LinkedIn, or GitHub.
+Email rakibulwspace@gmail.com, use the contact form at https://rakibul-labs.vercel.app/#contact, or connect through X, LinkedIn, or GitHub.
+
+### Who is Rakibul Islam?
+Rakibul Islam is the founder of Rakibul Labs and co-owner of CyberSAVVY SMMA. He builds AI products, self-hosted LLM stacks, and high-performance web apps from Barpeta, Assam, India.
