@@ -131,7 +131,7 @@ html.lenis, html.lenis body { height: auto; }
 .about-facts p { margin: 0; color: var(--muted); font-size: .85rem; }
 .about-facts strong { display: inline-block; width: 105px; color: var(--text); font-weight: 600; }
 .about-person { display: flex; align-items: center; gap: 1.2rem; justify-content: center; margin-bottom: 1.5rem; }
-.about-photo { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; border: 2px solid var(--line-bright); }
+.about-photo { width: clamp(96px, 12vw, 132px); height: clamp(96px, 12vw, 132px); border-radius: 50%; object-fit: cover; border: 2px solid var(--line-bright); }
 
 /* FAQ Accordion */
 .faq-section { background: rgba(11,15,28,.48); border-top: 1px solid var(--line); }
