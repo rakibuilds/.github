@@ -19,6 +19,8 @@
   --radius-m: 20px;
   --radius-l: 32px;
   --ease: cubic-bezier(.2,.75,.25,1);
+  --section-space: clamp(3rem, 7vw, 9rem);
+  --block-gap: clamp(1rem, 2.4vw, 2rem);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -77,8 +79,8 @@ html.lenis, html.lenis body { height: auto; }
 .hero-meta span + span { padding-left: 1.4rem; border-left: 1px solid var(--line); }
 
 /* Shared section typography */
-.section { padding: clamp(5rem,10vw,9rem) 0; position: relative; }
-.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 2.6rem; }
+.section { padding: var(--section-space) 0; position: relative; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; gap: var(--block-gap); margin-bottom: 2.6rem; }
 .section-heading .eyebrow { margin-bottom: .9rem; }
 .section-title { margin: 0; font-size: clamp(2.35rem,5vw,4.5rem); line-height: 1.08; font-weight: 600; }
 .title-period { color: var(--cyan); }
@@ -91,7 +93,7 @@ html.lenis, html.lenis body { height: auto; }
 
 /* Projects */
 .work-section { padding-top: clamp(6rem,10vw,9.5rem); }
-.projects-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.15rem; }
+.projects-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--block-gap); }
 .project-card { min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-m); background: linear-gradient(145deg,rgba(18,25,43,.9),rgba(12,16,30,.82)); transition: transform .35s var(--ease),border-color .3s,box-shadow .3s,opacity .3s; }
 .project-card:hover { transform: translateY(-6px); border-color: rgba(121,228,242,.35); box-shadow: 0 24px 70px rgba(0,0,0,.3),0 0 28px rgba(121,228,242,.06); }
 .project-featured { grid-column: span 2; display: grid; grid-template-columns: 1.15fr 1fr; }
@@ -113,10 +115,13 @@ html.lenis, html.lenis body { height: auto; }
 .text-link:hover { color: #fff; }
 
 /* Process */
-.process-list { list-style: none; margin: 2.4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.15rem; counter-reset: step; }
+.process-list { list-style: none; margin: 2.4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--block-gap); counter-reset: step; }
 .process-list li { counter-increment: step; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius-m); background: linear-gradient(145deg, rgba(18,25,43,.9), rgba(12,16,30,.82)); color: var(--muted); font-size: .88rem; line-height: 1.7; }
 .process-list li::before { content: "0" counter(step); display: block; margin-bottom: .8rem; color: var(--cyan); font-size: .75rem; letter-spacing: .12em; }
 .process-list strong { display: block; margin-bottom: .4rem; color: var(--text); font-family: var(--font-heading); font-size: 1.05rem; }
+.process-list strong a { color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,.35); text-underline-offset: 3px; transition: color .2s ease, text-decoration-color .2s ease; }
+.process-list strong a:hover,
+.process-list strong a:focus-visible { color: var(--cyan); text-decoration-color: var(--cyan); }
 .process-note { margin-top: 1.4rem; color: var(--subtle); font-size: .85rem; }
 
 /* About */
@@ -145,17 +150,17 @@ html.lenis, html.lenis body { height: auto; }
 .faq-answer[hidden] { display: none; }
 
 /* Writing and contact */
-.writing-section { padding-block: 5.5rem; }
+.writing-section { padding-block: var(--section-space); }
 .writing-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; padding: clamp(1.5rem,5vw,3.6rem); border: 1px solid var(--line); border-radius: var(--radius-l); background: radial-gradient(ellipse at 100% 0%,rgba(111,90,185,.16),transparent 45%),linear-gradient(130deg,rgba(20,28,47,.86),rgba(12,16,29,.82)); }
 .writing-inner .section-title { font-size: clamp(2.4rem,5vw,4rem); }
 .writing-inner .section-lede { margin-top: 1rem; }
-.writing-platforms { display: grid; gap: .8rem; }
+.writing-platforms { display: grid; gap: var(--block-gap); }
 .writing-platforms a { display: grid; gap: .3rem; padding: 1.1rem 1.2rem; border: 1px solid var(--line); border-radius: var(--radius-s); background: rgba(255,255,255,.025); transition: border-color .2s,transform .2s; }
 .writing-platforms a:hover { transform: translateX(4px); border-color: var(--line-bright); }
 .writing-platforms span { color: var(--subtle); font-size: .66rem; letter-spacing: .13em; }
 .writing-platforms strong { font-size: .88rem; font-weight: 600; }
 .contact-section { padding-top: 4rem; }
-.contact-grid { display: grid; grid-template-columns: 1fr minmax(330px,.82fr); gap: clamp(2.5rem,8vw,7rem); align-items: center; }
+.contact-grid { display: grid; grid-template-columns: 1fr minmax(330px,.82fr); gap: clamp(2rem,6vw,7rem); align-items: center; }
 .contact-copy .section-title { font-size: clamp(3rem,6vw,5.2rem); }
 .contact-copy .section-lede { margin-top: 1rem; }
 .contact-email { display: inline-flex; gap: .6rem; align-items: center; margin-top: 1.7rem; color: var(--cyan); font-size: clamp(.95rem,2vw,1.18rem); }
@@ -205,35 +210,16 @@ html.lenis, html.lenis body { height: auto; }
   .process-list { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* === FIXED MOBILE HERO GAP + DOMINANT 3D AVATAR === */
 @media (max-width: 768px) {
-  .hero-section {
-    min-height: auto; /* Stops forcing full-screen height */
-    padding-top: 100px; /* Clears the navbar */
-    padding-bottom: 0;
-  }
-  .hero-content {
-    justify-items: center;
-    text-align: center;
-    min-height: auto; /* REMOVES THE 95VH GAP */
-    padding-bottom: 0;
-  }
-  .hero-copy {
-    max-width: 100%;
-    align-items: center;
-    margin-bottom: 0;
-  }
+  .hero-section { min-height: auto; padding-top: 160px !important; padding-bottom: 40px; }
+  .hero-content { justify-items: center; text-align: center; min-height: auto; padding-bottom: 0; }
+  .hero-copy { max-width: 100%; align-items: center; margin-bottom: 0; }
   .hero-subtitle { margin-inline: auto; }
   .hero-actions, .hero-meta, .eyebrow { justify-content: center; }
   .hero-meta span + span { border-left: none; }
-
-  /* ✅ 3D avatar now DOMINATES the mobile hero background */
-  .universe-canvas {
-    opacity: 1 !important;          /* was 0.25 — full visibility */
-    z-index: 0;                     /* sits behind content */
-    transform: scale(1.35);         /* enlarges avatar to fill screen */
-    transform-origin: center center;
-  }
+  .universe-canvas { opacity: 1 !important; z-index: 0; transform: scale(1.35); transform-origin: center center; }
+  .footer { padding-top: 2rem; padding-bottom: 1.2rem; }
+  .footer-bottom { gap: .7rem 1rem; }
 }
 
 @media (max-width: 680px) {
@@ -242,7 +228,7 @@ html.lenis, html.lenis body { height: auto; }
   .navbar { height: 70px; }
   .nav-links,.nav-cta { display: none; }
   .mobile-toggle { display: block; }
-  .hero-section { padding: 100px 0 62px; }
+  .hero-section { padding-top: 150px !important; padding-bottom: 62px; }
   .hero-title { max-width: 560px; font-size: clamp(3.25rem,14vw,5.1rem); }
   .hero-subtitle { margin-top: 1.2rem; font-size: .98rem; }
   .hero-meta { margin-top: 1.8rem; }
@@ -250,6 +236,7 @@ html.lenis, html.lenis body { height: auto; }
   .section-heading { display: grid; align-items: start; gap: 1rem; }
   .section-title { font-size: clamp(2.4rem,11vw,3.6rem); }
   .projects-grid, .process-list { grid-template-columns: 1fr; }
+  .process-list { gap: .85rem; }
   .project-featured { grid-column: auto; display: block; }
   .project-featured .project-image { min-height: 250px; }
   .project-image { min-height: 220px; }
@@ -261,81 +248,9 @@ html.lenis, html.lenis body { height: auto; }
   .footer-bottom > span { flex-basis: 100%; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
-  .universe-canvas { display: none; }
-  [data-reveal],.reveal-on-scroll,.js-ready [data-reveal],.js-ready .reveal-on-scroll { opacity: 1 !important; transform: none !important; }
-}
-
-/* ==========================================================================
-   ADDED: Process-step links (Option A) + smoother responsive spacing
-   These come last so they override earlier rules safely.
-   ========================================================================== */
-
-/* --- Option A link styling for "Message me" / "Short intro call" --- */
-.process-list li strong a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, .35);
-  text-underline-offset: 3px;
-  transition: color .2s ease, text-decoration-color .2s ease;
-}
-.process-list li strong a:hover,
-.process-list li strong a:focus-visible {
-  color: var(--cyan);
-  text-decoration-color: var(--cyan);
-}
-
-/* Keep the underlined link from breaking the bold block layout */
-.process-list li strong { display: block; }
-.process-list li strong a { display: inline; }
-
-/* --- Fluid spacing system (safe overrides, no duplicates) --- */
-:root {
-  /* grows ~48px → ~144px with viewport */
-  --section-space: clamp(3rem, 7vw, 9rem);
-  /* gap between stacked blocks inside a section */
-  --block-gap: clamp(1rem, 2.4vw, 2rem);
-}
-
-/* Give every major section the same fluid vertical rhythm.
-   work-section already has its own top padding, so we only sync its bottom. */
-.section,
-.hero-section,
-.about-section,
-.writing-section,
-.faq-section,
-.contact-section {
-  padding-top: var(--section-space);
-  padding-bottom: var(--section-space);
-}
-.work-section { padding-bottom: var(--section-space); }
-
-/* Section headings breathe consistently on all sizes */
-.section-heading { gap: var(--block-gap); }
-
-/* Process list gap scales down nicely on small screens */
-.process-list { gap: var(--block-gap); }
-@media (max-width: 680px) {
-  .process-list { gap: .85rem; }
-}
-
-/* Projects grid + contact grid fluid gaps */
-.projects-grid { gap: var(--block-gap); }
-.contact-grid { gap: clamp(2rem, 6vw, 7rem); }
-
-/* Writing platforms gap */
-.writing-platforms { gap: var(--block-gap); }
-
-/* Footer breathing room on tablets/phones */
-@media (max-width: 768px) {
-  .footer { padding-top: 2rem; padding-bottom: 1.2rem; }
-  .footer-bottom { gap: .7rem 1rem; }
-}
-
-/* Extra small-screen polish (≤ 420px) */
 @media (max-width: 420px) {
   :root { --gutter: 1rem; }
+  .hero-section { padding-top: 140px !important; }
   .hero-title { font-size: clamp(2.9rem, 15vw, 4rem); }
   .hero-actions { flex-direction: column; width: 100%; }
   .hero-actions .btn-primary,
@@ -345,8 +260,13 @@ html.lenis, html.lenis body { height: auto; }
   .faq-question { font-size: .95rem; }
 }
 
-/* Tablet tuning (681px–900px) */
 @media (min-width: 681px) and (max-width: 900px) {
   .process-list { grid-template-columns: repeat(2, 1fr); }
   .contact-copy .section-title { font-size: clamp(2.6rem, 5vw, 3.6rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .universe-canvas { display: none; }
+  [data-reveal],.reveal-on-scroll,.js-ready [data-reveal],.js-ready .reveal-on-scroll { opacity: 1 !important; transform: none !important; }
 }
