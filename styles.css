@@ -210,25 +210,25 @@ html.lenis, html.lenis body { height: auto; }
   .hero-section {
     min-height: auto; /* Stops forcing full-screen height */
     padding-top: 100px; /* Clears the navbar */
-    padding-bottom: 0; 
+    padding-bottom: 0;
   }
-  .hero-content { 
-    justify-items: center; 
-    text-align: center; 
+  .hero-content {
+    justify-items: center;
+    text-align: center;
     min-height: auto; /* REMOVES THE 95VH GAP */
-    padding-bottom: 0; 
+    padding-bottom: 0;
   }
-  .hero-copy { 
-    max-width: 100%; 
-    align-items: center; 
-    margin-bottom: 0; 
+  .hero-copy {
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 0;
   }
   .hero-subtitle { margin-inline: auto; }
   .hero-actions, .hero-meta, .eyebrow { justify-content: center; }
   .hero-meta span + span { border-left: none; }
-  
+
   /* ✅ 3D avatar now DOMINATES the mobile hero background */
-  .universe-canvas { 
+  .universe-canvas {
     opacity: 1 !important;          /* was 0.25 — full visibility */
     z-index: 0;                     /* sits behind content */
     transform: scale(1.35);         /* enlarges avatar to fill screen */
@@ -265,4 +265,88 @@ html.lenis, html.lenis body { height: auto; }
   *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .universe-canvas { display: none; }
   [data-reveal],.reveal-on-scroll,.js-ready [data-reveal],.js-ready .reveal-on-scroll { opacity: 1 !important; transform: none !important; }
+}
+
+/* ==========================================================================
+   ADDED: Process-step links (Option A) + smoother responsive spacing
+   These come last so they override earlier rules safely.
+   ========================================================================== */
+
+/* --- Option A link styling for "Message me" / "Short intro call" --- */
+.process-list li strong a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, .35);
+  text-underline-offset: 3px;
+  transition: color .2s ease, text-decoration-color .2s ease;
+}
+.process-list li strong a:hover,
+.process-list li strong a:focus-visible {
+  color: var(--cyan);
+  text-decoration-color: var(--cyan);
+}
+
+/* Keep the underlined link from breaking the bold block layout */
+.process-list li strong { display: block; }
+.process-list li strong a { display: inline; }
+
+/* --- Fluid spacing system (safe overrides, no duplicates) --- */
+:root {
+  /* grows ~48px → ~144px with viewport */
+  --section-space: clamp(3rem, 7vw, 9rem);
+  /* gap between stacked blocks inside a section */
+  --block-gap: clamp(1rem, 2.4vw, 2rem);
+}
+
+/* Give every major section the same fluid vertical rhythm.
+   work-section already has its own top padding, so we only sync its bottom. */
+.section,
+.hero-section,
+.about-section,
+.writing-section,
+.faq-section,
+.contact-section {
+  padding-top: var(--section-space);
+  padding-bottom: var(--section-space);
+}
+.work-section { padding-bottom: var(--section-space); }
+
+/* Section headings breathe consistently on all sizes */
+.section-heading { gap: var(--block-gap); }
+
+/* Process list gap scales down nicely on small screens */
+.process-list { gap: var(--block-gap); }
+@media (max-width: 680px) {
+  .process-list { gap: .85rem; }
+}
+
+/* Projects grid + contact grid fluid gaps */
+.projects-grid { gap: var(--block-gap); }
+.contact-grid { gap: clamp(2rem, 6vw, 7rem); }
+
+/* Writing platforms gap */
+.writing-platforms { gap: var(--block-gap); }
+
+/* Footer breathing room on tablets/phones */
+@media (max-width: 768px) {
+  .footer { padding-top: 2rem; padding-bottom: 1.2rem; }
+  .footer-bottom { gap: .7rem 1rem; }
+}
+
+/* Extra small-screen polish (≤ 420px) */
+@media (max-width: 420px) {
+  :root { --gutter: 1rem; }
+  .hero-title { font-size: clamp(2.9rem, 15vw, 4rem); }
+  .hero-actions { flex-direction: column; width: 100%; }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-secondary { width: 100%; }
+  .contact-email { word-break: break-word; font-size: .95rem; }
+  .about-facts strong { width: 90px; }
+  .faq-question { font-size: .95rem; }
+}
+
+/* Tablet tuning (681px–900px) */
+@media (min-width: 681px) and (max-width: 900px) {
+  .process-list { grid-template-columns: repeat(2, 1fr); }
+  .contact-copy .section-title { font-size: clamp(2.6rem, 5vw, 3.6rem); }
 }
